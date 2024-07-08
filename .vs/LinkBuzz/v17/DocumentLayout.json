@@ -1,0 +1,876 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\mutemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\mutemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\grouppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\grouppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\modgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\modgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\membergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\membergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\joingroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\joingroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\groupentities\\admingroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\groupentities\\admingroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\userreactcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\userreactcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pagelikecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pagelikecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pagepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pagepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pagecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pagecomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pagelikepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pagelikepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\pageentities\\pagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\pageentities\\pagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\userreactpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\userreactpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\usercommentpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\usercommentpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\storyentities\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\storyentities\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\storyentities\\reactstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\storyentities\\reactstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\notificationentities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\notificationentities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\enumerates\\constantenumerates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\enumerates\\constantenumerates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\messagesingroupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\messagesingroupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\messagegroupreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\messagegroupreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\messagereaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\messagereaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\messagegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\messagegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\messagegroupmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\messagegroupmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\chatentities\\chatmessageparticipantstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\chatentities\\chatmessageparticipantstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\tagusersinpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\tagusersinpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\albumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\albumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\postentities\\postalbumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\postentities\\postalbumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\friendshipstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\friendshipstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userviolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userviolate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\confirmemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\confirmemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userblocked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userblocked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|c:\\users\\acer\\source\\repos\\linkbuzz\\linkbuzz.domain\\entities\\userentities\\userrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E93E5-F5E6-4303-8A5D-D05D5E4F47C0}|LinkBuzz.Domain\\LinkBuzz.Domain.csproj|solutionrelative:linkbuzz.domain\\entities\\userentities\\userrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MuteMember.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\MuteMember.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\MuteMember.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\MuteMember.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\MuteMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:56:01.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupPost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\GroupPost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\GroupPost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\GroupPost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\GroupPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:54:23.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\MemberGroup.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\MemberGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\MemberGroup.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\MemberGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:51:34.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JoinGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\JoinGroup.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\JoinGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\JoinGroup.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\JoinGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:48:38.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\ModGroup.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\ModGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\ModGroup.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\ModGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:43:23.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\AdminGroup.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\AdminGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\AdminGroup.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\AdminGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:40:05.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\Group.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\GroupEntities\\Group.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\GroupEntities\\Group.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\GroupEntities\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:38:23.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageLikeComment.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageLikeComment.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PageLikeComment.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageLikeComment.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PageLikeComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:35:52.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageLikePost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageLikePost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PageLikePost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageLikePost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PageLikePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:33:57.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageComment.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageComment.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PageComment.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageComment.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PageComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:31:11.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PagePost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PagePost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PagePost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PagePost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PagePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:29:29.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageMod.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageMod.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PageMod.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageMod.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PageMod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:28:16.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageAdmin.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\PageAdmin.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\PageAdmin.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\PageAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:26:29.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\Page.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PageEntities\\Page.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PageEntities\\Page.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PageEntities\\Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:24:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Story.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\StoryEntities\\Story.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\StoryEntities\\Story.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\StoryEntities\\Story.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\StoryEntities\\Story.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:19:30.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserCommentPost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserCommentPost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\UserCommentPost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserCommentPost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\UserCommentPost.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA9wBkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:18:09.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\User.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\User.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\User.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\User.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwDoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:44:46.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\Post.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\Post.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\Post.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\Post.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA5wCAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:05:54.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReactStory.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\StoryEntities\\ReactStory.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\StoryEntities\\ReactStory.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\StoryEntities\\ReactStory.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\StoryEntities\\ReactStory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:22:30.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\NotificationEntities\\Notification.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\NotificationEntities\\Notification.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\NotificationEntities\\Notification.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\NotificationEntities\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:15:05.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\Participant.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\Participant.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\Participant.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\Participant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:08:01.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TagUsersInPost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\TagUsersInPost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\TagUsersInPost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\TagUsersInPost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\TagUsersInPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:26:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChatMessageParticipantState.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessageParticipantState.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessageParticipantState.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessageParticipantState.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessageParticipantState.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:07:20.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserReactComment.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserReactComment.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\UserReactComment.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserReactComment.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\UserReactComment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:22:41.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\Conversation.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\Conversation.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\Conversation.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\Conversation.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:07:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserReactPost.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserReactPost.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\UserReactPost.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\UserReactPost.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\UserReactPost.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:13:32.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessage.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\ChatMessage.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA5wBQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:06:58.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MessageGroupMember.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupMember.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupMember.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupMember.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupMember.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:08:53.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MessageGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroup.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroup.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroup.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroup.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:08:36.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MessageReaction.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageReaction.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageReaction.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageReaction.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageReaction.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:08:19.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\Role.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\Role.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\Role.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:03:01.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PostShare.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\PostShare.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\PostShare.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\PostShare.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\PostShare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:25:00.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConstantEnumerates.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Enumerates\\ConstantEnumerates.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Enumerates\\ConstantEnumerates.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Enumerates\\ConstantEnumerates.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Enumerates\\ConstantEnumerates.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwD8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:49:05.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MessageGroupReaction.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupReaction.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupReaction.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupReaction.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessageGroupReaction.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:13:14.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MessagesInGroupMessage.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessagesInGroupMessage.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessagesInGroupMessage.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\ChatEntities\\MessagesInGroupMessage.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\ChatEntities\\MessagesInGroupMessage.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA2wBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:09:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Albumn.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\Albumn.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\Albumn.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\Albumn.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\Albumn.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:10:21.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PostAlbumn.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\PostAlbumn.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\PostEntities\\PostAlbumn.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\PostEntities\\PostAlbumn.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\PostEntities\\PostAlbumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:11:40.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FriendShip.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\FriendShip.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\FriendShip.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\FriendShip.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\FriendShip.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA2wA4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T05:57:27.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FriendShipStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\FriendShipStatus.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\FriendShipStatus.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\FriendShipStatus.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\FriendShipStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T05:59:15.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserActivity.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserActivity.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserActivity.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserActivity.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserActivity.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T05:52:37.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserSession.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserSession.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserSession.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserSession.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T05:51:00.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserDevice.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserDevice.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserDevice.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserDevice.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserDevice.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:03:08.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserBlocked.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserBlocked.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserBlocked.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserBlocked.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserBlocked.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:57:36.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserFollower.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserFollower.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserFollower.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserFollower.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserFollower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:55:51.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserRelationship.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserRelationship.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserRelationship.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserRelationship.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:59:35.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserViolate.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserViolate.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserViolate.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserViolate.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserViolate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:00:44.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\RefreshToken.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:06:16.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserStatus.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\UserStatus.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\UserStatus.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\UserStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:58:55.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\Permission.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\Permission.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\Permission.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:03:29.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConfirmEmail.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\ConfirmEmail.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\UserEntities\\ConfirmEmail.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\UserEntities\\ConfirmEmail.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\UserEntities\\ConfirmEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:04:47.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "LinkBuzz.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "LinkBuzz.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:45:01.44Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
