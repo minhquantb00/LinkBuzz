@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkBuzz.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d878ff9cced983fb8ae93f54c3a38c212944daf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkBuzz.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkBuzz.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
