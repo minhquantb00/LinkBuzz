@@ -18,9 +18,11 @@ namespace LinkBuzz.Api.Services
             throw new NotImplementedException();
         }
 
-        public Task SetCacheResponseAsync(string cacheKey, object response, TimeSpan timeOut)
+        public async Task SetCacheResponseAsync(string cacheKey, object response, TimeSpan timeOut)
         {
-            throw new NotImplementedException();
+            if (response == null) return;
+
+
         }
     }
 }

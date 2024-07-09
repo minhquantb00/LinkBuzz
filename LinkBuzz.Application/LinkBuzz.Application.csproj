@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LinkBuzz.Domain\LinkBuzz.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
