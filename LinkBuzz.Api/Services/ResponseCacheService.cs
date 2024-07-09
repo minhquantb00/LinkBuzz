@@ -1,5 +1,7 @@
 ﻿
 using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using StackExchange.Redis;
 
 namespace LinkBuzz.Api.Services
@@ -13,16 +15,25 @@ namespace LinkBuzz.Api.Services
             _distributedCache = distributedCache;
             _connectionMultiplexer = connectionMultiplexer;
         }
-        public Task<string> GetCacheResponseAsync(string cacheKey)
+        public async Task<string> GetCacheResponseAsync(string cacheKey)
         {
-            throw new NotImplementedException();
+            var cacheResponse = await _distributedCache.GetStringAsync(cacheKey);
+            return string.IsNullOrEmpty(cacheResponse) ? "" : cacheResponse;
         }
 
         public async Task SetCacheResponseAsync(string cacheKey, object response, TimeSpan timeOut)
         {
             if (response == null) return;
 
+            var serializerResponse = JsonConvert.SerializeObject(response, new JsonSerializerSettings()
+            {
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            });
 
+            await _distributedCache.SetStringAsync(cacheKey, serializerResponse, new DistributedCacheEntryOptions()
+            {
+                AbsoluteExpirationRelativeToNow = timeOut
+            });
         }
     }
 }

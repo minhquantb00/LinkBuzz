@@ -16,7 +16,7 @@ using Group = LinkBuzz.Domain.Entities.GroupEntities.Group;
 
 namespace LinkBuzz.Infrastructure.DataContexts
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : DbContext, IAppDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public AppDbContext() { }
@@ -69,5 +69,15 @@ namespace LinkBuzz.Infrastructure.DataContexts
         public virtual DbSet<UserSession> UserSession  { get; set; }
         public virtual DbSet<UserStatus> UserStatus { get; set; }
         public virtual DbSet<UserViolate> UserViolate { get; set; }
+
+        public async Task<int> CommitChangesAsync()
+        {
+            return await base.SaveChangesAsync();
+        }
+
+        public DbSet<TEntity> SetEntity<TEntity>() where TEntity : class
+        {
+            return base.Set<TEntity>();
+        }
     }
 }
