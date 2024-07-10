@@ -30,10 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LinkBuzz.Application\LinkBuzz.Application.csproj" />
     <ProjectReference Include="..\LinkBuzz.Domain\LinkBuzz.Domain.csproj" />
     <ProjectReference Include="..\LinkBuzz.Infrastructure\LinkBuzz.Infrastructure.csproj" />
