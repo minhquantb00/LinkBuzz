@@ -1,11 +1,15 @@
-﻿
+﻿using LinkBuzz.Application.InterfaceService;
 using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.FileSystemGlobbing.Internal;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using StackExchange.Redis;
 
-namespace LinkBuzz.Api.Services
+namespace LinkBuzz.Application.ImplementService
 {
     public class ResponseCacheService : IResponseCacheService
     {
@@ -29,7 +33,7 @@ namespace LinkBuzz.Api.Services
                 throw new ArgumentException("Value cannot be null or whitespace");
             }
 
-            await foreach(var key in GetKeyAsync(pattern + "*"))
+            await foreach (var key in GetKeyAsync(pattern + "*"))
             {
                 await _distributedCache.RemoveAsync(key);
             }
@@ -41,10 +45,10 @@ namespace LinkBuzz.Api.Services
             {
                 throw new ArgumentException("Value cannot be null or whitespace");
             }
-            foreach(var endPoint in _connectionMultiplexer.GetEndPoints())
+            foreach (var endPoint in _connectionMultiplexer.GetEndPoints())
             {
                 var server = _connectionMultiplexer.GetServer(endPoint);
-                foreach(var key in server.Keys(pattern: pattern))
+                foreach (var key in server.Keys(pattern: pattern))
                 {
                     yield return key.ToString();
                 }

@@ -1,6 +1,7 @@
 ﻿
 using LinkBuzz.Api.Configuration;
-using LinkBuzz.Api.Services;
+using LinkBuzz.Application.ImplementService;
+using LinkBuzz.Application.InterfaceService;
 using StackExchange.Redis;
 
 namespace LinkBuzz.Api.Installers

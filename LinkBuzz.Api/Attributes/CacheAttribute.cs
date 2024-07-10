@@ -1,5 +1,5 @@
 ﻿using LinkBuzz.Api.Configuration;
-using LinkBuzz.Api.Services;
+using LinkBuzz.Application.InterfaceService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Text;

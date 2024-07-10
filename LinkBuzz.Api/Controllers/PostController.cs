@@ -1,5 +1,4 @@
 ﻿using LinkBuzz.Api.Attributes;
-using LinkBuzz.Api.Services;
 using LinkBuzz.Application.InterfaceService;
 using LinkBuzz.Domain.Entities.PostEntities;
 using LinkBuzz.Domain.Helpers;
