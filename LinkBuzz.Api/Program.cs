@@ -2,7 +2,9 @@ using LinkBuzz.Api.Installers;
 using LinkBuzz.Application.Handle.HandleEmail;
 using LinkBuzz.Application.ImplementService;
 using LinkBuzz.Application.InterfaceService;
+using LinkBuzz.Application.Payloads.Converters;
 using LinkBuzz.Domain.Entities.PostEntities;
+using LinkBuzz.Domain.Entities.UserEntities;
 using LinkBuzz.Domain.Helpers;
 using LinkBuzz.Domain.InterfaceRepositories;
 using LinkBuzz.Infrastructure.DataContexts;
@@ -67,9 +69,15 @@ builder.Services.AddAuthentication(options =>
 });
 var emailConfig = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
 builder.Services.AddSingleton(emailConfig);
-
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IPostService, PostService>();
+
+
+builder.Services.AddScoped<UserConverter>();
+
+
 builder.Services.AddScoped<IRepository<Post>, Repository<Post>>();
+builder.Services.AddScoped<IRepository<User>, Repository<User>>();
 builder.Services.AddScoped<IDbContext, AppDbContext>();
 
 
