@@ -1,11 +1,5 @@
 export default [
     {
-        path: "/",
-        name: "live-preview",
-        meta: { title: "Live Preview" },
-        component: () => import("../views/live-preview/pages/index.vue"),
-    },
-    {
         path: "/landing",
         name: "landing",
         meta: { title: "Landing Preview" },
@@ -471,7 +465,7 @@ export default [
 
     // Auth 1
     {
-        path: "/login-v1",
+        path: "/",
         name: "login-v1",
         meta: { title: "Login" },
         component: () => import("../views/live-preview/pages/auth1/login.vue"),

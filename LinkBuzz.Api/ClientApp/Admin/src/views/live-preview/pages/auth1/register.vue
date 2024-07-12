@@ -18,9 +18,9 @@ export default {
                         <div class="text-center">
                             <img src="@/assets/images/authentication/img-auth-register.png" alt="images"
                                 class="img-fluid mb-3">
-                            <h4 class="f-w-500 mb-1">Register with your email</h4>
-                            <p class="mb-3">Already have an Account? <a href="@/pages/login-v1.html"
-                                    class="link-primary">Log in</a></p>
+                            <h4 class="f-w-500 mb-1">Đăng ký để trải nghiệm</h4>
+                            <p class="mb-3">Bạn đã có tài khoản? <a href="@/pages/login-v1.html"
+                                    class="link-primary">Đăng nhập</a></p>
                         </div>
                         <BRow class="row">
                             <BCol class="col-sm-6">
@@ -35,29 +35,31 @@ export default {
                             </BCol>
                         </BRow>
                         <div class="form-group mb-3">
-                            <input type="email" class="form-control" placeholder="Email Address">
+                            <input type="text" class="form-control" placeholder="Tài khoản">
                         </div>
                         <div class="form-group mb-3">
-                            <input type="number" class="form-control" placeholder="Phone number">
+                            <input type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="form-group mb-3">
-                            <input type="password" class="form-control" placeholder="Password">
+                            <input type="number" class="form-control" placeholder="Số điện thoại">
                         </div>
                         <div class="form-group mb-3">
-                            <input type="password" class="form-control" placeholder="Confirm Password">
+                            <input type="password" class="form-control" placeholder="Mật khẩu">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="password" class="form-control" placeholder="Xác nhận mật khẩu">
                         </div>
                         <div class="d-flex mt-1 justify-content-between">
                             <div class="form-check">
                                 <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" checked="">
-                                <label class="form-check-label text-muted" for="customCheckc1">I agree to all the Terms &
-                                    Condition</label>
+                                <label class="form-check-label text-muted" for="customCheckc1">Tôi đồng ý với các chính sách & điều khoản </label>
                             </div>
                         </div>
                         <div class="d-grid mt-4">
-                            <button type="button" class="btn btn-primary">Create Account</button>
+                            <button type="button" class="btn btn-primary">Đăng ký</button>
                         </div>
                         <div class="saprator my-3">
-                            <span>Or continue with</span>
+                            <span>Hoặc</span>
                         </div>
                         <div class="text-center">
                             <ul class="list-inline mx-auto mt-3 mb-0">
@@ -85,25 +87,6 @@ export default {
                 </div>
             </div>
 
-            <div class="auth-sidefooter">
-                <img src="@/assets/images/logo-dark.svg" class="img-brand img-fluid" alt="images">
-                <hr class="mb-3 mt-4">
-                <BRow class="row">
-                    <BCol class="col my-1">
-                        <p class="m-0">Light Able ♥ crafted by Team <a href="#" target="_blank">
-                                themes</a></p>
-                    </BCol>
-                    <BCol class="col-auto my-1">
-                        <ul class="list-inline footer-link mb-0">
-                            <li class="list-inline-item"><router-link to="/dashboard">Home</router-link></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Documentation</a></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Support</a></li>
-                        </ul>
-                    </BCol>
-                </BRow>
-            </div>
         </div>
     </div>
     <Rightbar />

@@ -55,25 +55,6 @@ export default {
                 </div>
             </div>
 
-            <div class="auth-sidefooter">
-                <img src="@/assets/images/logo-dark.svg" class="img-brand img-fluid" alt="images">
-                <hr class="mb-3 mt-4">
-                <BRow class="row">
-                    <BCol class="col my-1">
-                        <p class="m-0">Light Able ♥ crafted by Team <a href="#" target="_blank">
-                                themes</a></p>
-                    </BCol>
-                    <BCol class="col-auto my-1">
-                        <ul class="list-inline footer-link mb-0">
-                            <li class="list-inline-item"><router-link to="/dashboard">Home</router-link></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Documentation</a></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Support</a></li>
-                        </ul>
-                    </BCol>
-                </BRow>
-            </div>
         </div>
     </div>
     <Rightbar />

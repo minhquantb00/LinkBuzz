@@ -4,7 +4,7 @@ import appConfig from "../../app.config";
 
 
 const router = createRouter({
-    history: createWebHistory("/vue/"),
+    history: createWebHistory(),
     routes,
   
 });

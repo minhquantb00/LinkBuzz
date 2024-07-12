@@ -18,7 +18,7 @@ export default {
                         <div class="text-center">
                             <img src="@/assets/images/authentication/img-auth-login.png" alt="images"
                                 class="img-fluid mb-3">
-                            <h4 class="f-w-500 mb-1">Login with your email dcdcd</h4>
+                            <h4 class="f-w-500 mb-1">Login with your email</h4>
                             <p class="mb-3">Don't have an Account? <a href="@/pages/register-v1.html"
                                     class="link-primary ms-1">Create Account</a></p>
                         </div>
@@ -69,25 +69,6 @@ export default {
                 </div>
             </div>
 
-            <div class="auth-sidefooter">
-                <img src="@/assets/images/logo-dark.svg" class="img-brand img-fluid" alt="images">
-                <hr class="mb-3 mt-4">
-                <BRow class="row">
-                    <BCol class="col my-1">
-                        <p class="m-0">Light Able ♥ crafted by Team <a href="#" target="_blank">
-                                themes</a></p>
-                    </BCol>
-                    <Bcol class="col-auto my-1">
-                        <ul class="list-inline footer-link mb-0">
-                            <li class="list-inline-item"><router-link to="/dashboard">Home</router-link></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Documentation</a></li>
-                            <li class="list-inline-item"><a href="#"
-                                    target="_blank">Support</a></li>
-                        </ul>
-                    </Bcol>
-                </BRow>
-            </div>
         </div>
     </div>
     <Rightbar />
