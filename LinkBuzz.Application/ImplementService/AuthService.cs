@@ -82,8 +82,6 @@ namespace LinkBuzz.Application.ImplementService
 
         }
         #endregion
-
-
         #region Service
         #region Đăng ký
         public async Task<ResponseObject<DataResponseUser>> Register(Request_RegisterUser request)
