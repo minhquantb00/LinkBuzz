@@ -77,6 +77,9 @@ builder.Services.AddScoped<UserConverter>();
 
 
 builder.Services.AddScoped<IRepository<Post>, Repository<Post>>();
+builder.Services.AddScoped<IRepository<Permission>, Repository<Permission>>();
+builder.Services.AddScoped<IRepository<RefreshToken>, Repository<RefreshToken>>();
+builder.Services.AddScoped<IRepository<Role>, Repository<Role>>();
 builder.Services.AddScoped<IRepository<User>, Repository<User>>();
 builder.Services.AddScoped<IDbContext, AppDbContext>();
 
