@@ -83,10 +83,10 @@ namespace LinkBuzz.Infrastructure.ImplementRepositories
             }
             _context.SaveChanges();
         }
-        public virtual async Task<IEnumerable<string>> GetRolesOfUserAsync(User user)
+        public async Task<IEnumerable<string>> GetRolesOfUserAsync(User user)
         {
             List<string> roles = new List<string>();
-            var listRoles = _context.Permission.Where(x => x.UserId == user.Id).AsQueryable();
+            var listRoles = await _context.Permission.Where(x => x.UserId == user.Id).ToListAsync();
             foreach (var item in listRoles.Distinct())
             {
                 var role = _context.Role.SingleOrDefault(x => x.Id == item.RoleId);

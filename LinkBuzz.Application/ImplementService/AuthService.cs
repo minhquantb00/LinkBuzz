@@ -22,6 +22,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Role = LinkBuzz.Domain.Entities.UserEntities.Role;
 using BcryptNet = BCrypt.Net.BCrypt;
+using FluentEmail.Core;
+using Microsoft.EntityFrameworkCore;
 
 namespace LinkBuzz.Application.ImplementService
 {
@@ -35,18 +37,16 @@ namespace LinkBuzz.Application.ImplementService
         private readonly IRepository<Role> _roleRepository;
         private readonly IConfiguration _configuration;
         private readonly IRepository<RefreshToken> _refreshTokenRepository;
+        private readonly IResponseCacheService _responseCacheService;
         private readonly TimeSpan _cacheExpiry = TimeSpan.FromMinutes(10);
         #endregion
         #region Biến dùng trong class
         private User checkUserName;
         private User checkEmail;
         private User checkPhoneNumber;
-        private IQueryable<Permission> permissions;
-        private IQueryable<Role> roles;
-        private IQueryable<string> userRoles;
         #endregion
         #region Hàm khởi tạo truyền tham số
-        public AuthService(IRepository<User> userRepository, UserConverter userConverter, IConnectionMultiplexer redis, IRepository<Permission> permissionRepository, IRepository<Role> roleRepository, IConfiguration configuration, IRepository<RefreshToken> refreshTokenRepository)
+        public AuthService(IRepository<User> userRepository, UserConverter userConverter, IConnectionMultiplexer redis, IRepository<Permission> permissionRepository, IRepository<Role> roleRepository, IConfiguration configuration, IRepository<RefreshToken> refreshTokenRepository, IResponseCacheService responseCacheService)
         {
             _userRepository = userRepository;
             _userConverter = userConverter;
@@ -55,74 +55,18 @@ namespace LinkBuzz.Application.ImplementService
             _roleRepository = roleRepository;
             _configuration = configuration;
             _refreshTokenRepository = refreshTokenRepository;
-        }
-        #endregion
-        #region Init data
-        public async Task<AuthService> InitData(string? userName, string? email, string? phoneNumber, User? user)
-        {
-            if (!string.IsNullOrEmpty(userName))
-            {
-                checkUserName = await GetFromRedisOrDb(userName, "username");
-            }
-            if (!string.IsNullOrEmpty(email))
-            {
-                checkEmail = await GetFromRedisOrDb(email, "email");
-            }
-            if (!string.IsNullOrEmpty(phoneNumber))
-            {
-                checkPhoneNumber = await GetFromRedisOrDb(phoneNumber, "phoneNumber");
-            }
-            if (user != null)
-            {
-                var permissions = await _permissionRepository.GetAllAsync(x => x.UserId == user.Id);
-            }
-            var roles = await _roleRepository.GetAllAsync();
-            return this;
+            _responseCacheService = responseCacheService;
         }
         #endregion
         #region Private Methods
-        private async Task<User?> GetFromRedisOrDb(string key, string type)
-        {
-            string userName = await _redisDb.StringGetAsync(key);
-            if (!string.IsNullOrEmpty(userName))
-            {
-                return new User { UserName = userName };
-            }
-
-            User? user = type switch
-            {
-                "username" => await _userRepository.GetAsync(item => item.UserName.Equals(key)),
-                "email" => await _userRepository.GetAsync(item => item.Email.Equals(key)),
-                "phoneNumber" => await _userRepository.GetAsync(item => item.PhoneNumber.Equals(key)),
-                "password" => await _userRepository.GetAsync(item => item.Password.Equals(key)),
-                _ => null
-            };
-
-            if (user != null)
-            {
-                await _redisDb.StringSetAsync(key, user.UserName, _cacheExpiry);
-            }
-
-            return user;
-        }
-
-        private async Task AddUserToRedis(User user)
-        {
-            await _redisDb.StringSetAsync(user.UserName, user.UserName, _cacheExpiry);
-            await _redisDb.StringSetAsync(user.Email, user.UserName, _cacheExpiry);
-            await _redisDb.StringSetAsync(user.PhoneNumber, user.UserName, _cacheExpiry);
-            await _redisDb.StringSetAsync(user.Password, user.UserName, _cacheExpiry);
-            await _redisDb.StringSetAsync(user.AccountType?.ToString(), user.UserName, _cacheExpiry);
-
-        }
         #endregion
         #region Service
         #region Đăng ký
         public async Task<ResponseObject<DataResponseUser>> Register(Request_RegisterUser request)
         {
-            await this.InitData(request.UserName, request.Email, request.PhoneNumber, null);
             try
             {
+                var checkUserName = await _userRepository.GetAsync(item => item.UserName.Equals(request.UserName));
                 if (checkUserName != null)
                 {
                     return new ResponseObject<DataResponseUser>
@@ -132,6 +76,7 @@ namespace LinkBuzz.Application.ImplementService
                         Status = StatusCodes.Status400BadRequest
                     };
                 }
+                var checkEmail = await _userRepository.GetAsync(item => item.Email.Equals(request.Email));
                 if (checkEmail != null)
                 {
                     return new ResponseObject<DataResponseUser>
@@ -141,6 +86,7 @@ namespace LinkBuzz.Application.ImplementService
                         Message = "Email đã tồn tại trên hệ thống! Vui lòng thử lại"
                     };
                 }
+                var checkPhoneNumber = await _userRepository.GetAsync(item => item.PhoneNumber.Equals(request.PhoneNumber));
                 if (checkPhoneNumber != null)
                 {
                     return new ResponseObject<DataResponseUser>
@@ -159,7 +105,7 @@ namespace LinkBuzz.Application.ImplementService
                     FirstName = request.FirstName,
                     Gender = request.Gender,
                     LastName = request.LastName,
-                    Password = request.Password,
+                    Password = BcryptNet.HashPassword(request.Password),
                     PhoneNumber = request.PhoneNumber,
                     RegistrationDate = DateTime.Now,
                     UserStatusId = (long)((int)ConstantEnumerates.UserStatus.Activated),
@@ -169,7 +115,6 @@ namespace LinkBuzz.Application.ImplementService
                 if (user != null)
                 {
                     await AddRoleToUser(user.Id, new List<string> { "User" });
-                    await AddUserToRedis(user);
 
                     return new ResponseObject<DataResponseUser>
                     {
@@ -217,10 +162,11 @@ namespace LinkBuzz.Application.ImplementService
 
         public async Task<ResponseObject<DataResponseLogin>> Login(Request_Login request)
         {
-            await this.InitData(request.UserName, null, null, null);
             try
             {
-                if (checkUserName == null)
+                var user = await _userRepository.GetAsync(item => item.UserName.Equals(request.UserName));
+
+                if (user == null)
                 {
                     return new ResponseObject<DataResponseLogin>
                     {
@@ -229,7 +175,7 @@ namespace LinkBuzz.Application.ImplementService
                         Data = null
                     };
                 }
-                var checkPassword = BcryptNet.Verify(request.Password, checkUserName.Password);
+                var checkPassword = BcryptNet.Verify(request.Password, user.Password);
                 if (!checkPassword)
                 {
                     return new ResponseObject<DataResponseLogin>
@@ -239,14 +185,16 @@ namespace LinkBuzz.Application.ImplementService
                         Data = null
                     };
                 }
+
+                var tokenResponse = await GetJwtTokenAsync(user);
                 return new ResponseObject<DataResponseLogin>
                 {
                     Status = StatusCodes.Status200OK,
                     Message = "Đăng nhập thành công",
                     Data = new DataResponseLogin
                     {
-                        AccessToken = GetJwtTokenAsync(checkUserName).Result.Data.AccessToken,
-                        RefreshToken = GetJwtTokenAsync(checkUserName).Result.Data.RefreshToken,
+                        AccessToken = tokenResponse.Data.AccessToken,
+                        RefreshToken = tokenResponse.Data.RefreshToken,
                     }
                 };
             }
@@ -263,9 +211,19 @@ namespace LinkBuzz.Application.ImplementService
         #endregion
 
         #region Xử lý token
-        private async Task<List<Claim>> HandleClaim(User user)
+        public async Task<ResponseObject<DataResponseLogin>> GetJwtTokenAsync(User user)
         {
-            await this.InitData(user.UserName, user.Email, user.PhoneNumber, user);
+            var permissions =  _permissionRepository.GetAllAsync(x => x.UserId == user.Id).Result;
+            if (!permissions.Any())
+            {
+                return null;
+            }
+            var roles =  _roleRepository.GetAllAsync().Result;
+            if (!roles.Any())
+            {
+                return null;
+            }
+
             var authClaims = new List<Claim>
             {
                 new Claim("Id", user.Id.ToString()),
@@ -273,28 +231,22 @@ namespace LinkBuzz.Application.ImplementService
                 new Claim("Email", user.Email),
             };
 
-            foreach (var permission in permissions)
+            var permissionClaims = from permission in permissions
+                                   join role in roles on permission.RoleId equals role.Id
+                                   select new Claim("Permission", role.Name);
+
+            foreach (var claim in permissionClaims)
             {
-                foreach (var role in roles)
-                {
-                    if (role.Id == permission.RoleId)
-                    {
-                        authClaims.Add(new Claim("Permission", role.Name));
-                    }
-                }
+                authClaims.Add(claim);
             }
 
+            var userRoles = await _userRepository.GetRolesOfUserAsync(user);
             foreach (var role in userRoles)
             {
                 authClaims.Add(new Claim(ClaimTypes.Role, role));
             }
-            return authClaims;
-        }
-        public async Task<ResponseObject<DataResponseLogin>> GetJwtTokenAsync(User user)
-        {
-            await this.InitData(user.UserName, user.Email, user.PhoneNumber, user);
-            var listClaim = await HandleClaim(user);
-            var jwtToken = GetToken(listClaim);
+
+            var jwtToken = GetToken(authClaims);
             var refreshToken = GenerateRefreshToken();
             _ = int.TryParse(_configuration["JWT:RefreshTokenValidity"], out int refreshTokenValidity);
 
@@ -305,7 +257,7 @@ namespace LinkBuzz.Application.ImplementService
                 Token = refreshToken
             };
 
-            rf = await _refreshTokenRepository.CreateAsync(rf);
+            rf = await _refreshTokenRepository.CreateAsync(rf).ConfigureAwait(false);
 
             return new ResponseObject<DataResponseLogin>
             {
@@ -318,6 +270,7 @@ namespace LinkBuzz.Application.ImplementService
                 }
             };
         }
+
 
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
