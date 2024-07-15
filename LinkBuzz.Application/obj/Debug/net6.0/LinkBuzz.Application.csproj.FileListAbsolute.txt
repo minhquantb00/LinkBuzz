@@ -1,0 +1,16 @@
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\bin\Debug\net6.0\LinkBuzz.Application.deps.json
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\bin\Debug\net6.0\LinkBuzz.Application.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\bin\Debug\net6.0\LinkBuzz.Application.pdb
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\bin\Debug\net6.0\LinkBuzz.Domain.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\bin\Debug\net6.0\LinkBuzz.Domain.pdb
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.AssemblyInfo.cs
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.sourcelink.json
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.E69C3BDE.Up2Date
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\refint\LinkBuzz.Application.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\LinkBuzz.Application.pdb
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\obj\Debug\net6.0\ref\LinkBuzz.Application.dll

@@ -1,0 +1,15 @@
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\bin\Debug\net6.0\LinkBuzz.Domain.deps.json
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\bin\Debug\net6.0\LinkBuzz.Domain.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\bin\Debug\net6.0\LinkBuzz.Domain.pdb
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.AssemblyInfo.cs
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.sourcelink.json
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\refint\LinkBuzz.Domain.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.pdb
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\ref\LinkBuzz.Domain.dll
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\bin\Debug\net6.0\LinkBuzz.Domain.runtimeconfig.json
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Domain\obj\Debug\net6.0\LinkBuzz.Domain.genruntimeconfig.cache

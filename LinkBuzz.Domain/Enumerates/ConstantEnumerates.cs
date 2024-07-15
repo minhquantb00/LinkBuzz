@@ -12,9 +12,9 @@ namespace LinkBuzz.Domain.Enumerates
         [JsonConverter(typeof(JsonStringEnumConverter))]
         public enum Gender
         {
-            UnKnown = 0,
-            Male = 1,
-            Female = 2
+            KhongXacDinh = 0,
+            Nam = 1,
+            Nu = 2
         }
 
         [JsonConverter(typeof(JsonStringEnumConverter))]
@@ -62,6 +62,15 @@ namespace LinkBuzz.Domain.Enumerates
             ThongBaoBaiVietBanBe = 1,
             ThongBaoBaiVietCuaBanThan = 2,
             ThongBaoBaiVietCuaPage = 3
+        }
+
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public enum UserStatus
+        {
+            UnActivated = 1,
+            Activated = 2,
+            IsDeleted = 3,
+            IsLocked = 4
         }
     }
 }
