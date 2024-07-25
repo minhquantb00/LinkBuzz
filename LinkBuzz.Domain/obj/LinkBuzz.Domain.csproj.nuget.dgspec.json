@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj": {}
+    "C:\\Users\\beggi\\Source\\Repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj": {
+    "C:\\Users\\beggi\\Source\\Repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\beggi\\Source\\Repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj",
         "projectName": "LinkBuzz.Domain",
-        "projectPath": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\source\\repos\\LinkBuzz\\LinkBuzz.Domain\\obj\\",
+        "projectPath": "C:\\Users\\beggi\\Source\\Repos\\LinkBuzz\\LinkBuzz.Domain\\LinkBuzz.Domain.csproj",
+        "packagesPath": "C:\\Users\\beggi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beggi\\Source\\Repos\\LinkBuzz\\LinkBuzz.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beggi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -78,26 +81,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

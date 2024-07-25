@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LinkBuzz.Application
-build_property.ProjectDir = C:\Users\ACER\source\repos\LinkBuzz\LinkBuzz.Application\
+build_property.ProjectDir = C:\Users\beggi\Source\Repos\LinkBuzz\LinkBuzz.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

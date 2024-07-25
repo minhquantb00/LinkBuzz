@@ -6,9 +6,11 @@ using LinkBuzz.Domain.Entities.PostEntities;
 using LinkBuzz.Domain.Entities.StoryEntities;
 using LinkBuzz.Domain.Entities.UserEntities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -78,6 +80,53 @@ namespace LinkBuzz.Infrastructure.DataContexts
         public DbSet<TEntity> SetEntity<TEntity>() where TEntity : class
         {
             return base.Set<TEntity>();
+        }
+
+
+        private IDbContextTransaction _currentTransaction;
+        public IDbContextTransaction GetCurrentTransaction => _currentTransaction;
+
+        public async Task BeginTransactionAsync()
+        {
+            _currentTransaction = _currentTransaction ?? await Database.BeginTransactionAsync();
+        }
+
+        public async Task CommitTransactionAsync()
+        {
+            try
+            {
+                await SaveChangesAsync();
+                _currentTransaction?.Commit();
+            }
+            catch
+            {
+                RollbackTransaction();
+                throw;
+            }
+            finally
+            {
+                if (_currentTransaction != null)
+                {
+                    _currentTransaction.Dispose();
+                    _currentTransaction = null;
+                }
+            }
+        }
+
+        public void RollbackTransaction()
+        {
+            try
+            {
+                _currentTransaction?.Rollback();
+            }
+            finally
+            {
+                if (_currentTransaction != null)
+                {
+                    _currentTransaction.Dispose();
+                    _currentTransaction = null;
+                }
+            }
         }
     }
 }
